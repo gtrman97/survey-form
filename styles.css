@@ -8,19 +8,20 @@ body {
   background-repeat: no-repeat; 
   height: 100vh;
 }
-#title{
+.title {
   text-align:center;
   font-family: 'Bungee Shade'; 
 }
 .required::before{
   content: '*'; 
 }
-#description{
-  margin-left: auto;
-  margin-right: auto; 
+.description{
+  margin: 5%;
   width: 25em; 
   padding-top: 10px; 
   padding-bottom: 20px; 
+  text-align: center;
+  border: solid 2px red;
   
 }
 #survey-form {
