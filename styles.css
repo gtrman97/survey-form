@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}  
+body {
+  background: linear-gradient(to bottom, aqua, blue);  
+  background-repeat: no-repeat; 
+}
+#title{
+  text-align:center;
+  font-family: 'Bungee Shade'; 
+}
+.required::before{
+  content: '*'; 
+}
+#description{
+  margin-left: auto;
+  margin-right: auto; 
+  width: 25em; 
+  padding-top: 10px; 
+  padding-bottom: 20px; 
+  
+}
+#survey-form {
+  background-color: skyblue;    
+  text-align: center; 
+  margin: auto; 
+  width: 17vw;  
+  border: 5px solid red; 
+  box-shadow: 2px 5px 18px 20px orange; 
+  padding: 15px;  
+}
+#name {
+  margin: 10px; 
+}
+#email {
+  margin: 10px; 
+}
+#number {
+  margin: 10px;  
+}
+#dropdown {
+  margin: 10px; 
+
+}
+#genders label{
+  padding: 5px; 
+  display: block;
+}
+#acoustic {
+  float: initial; 
+  padding-top: 15px; 
+  padding-bottom: 5px; 
+}
+#electric {
+  float: initial; 
+  padding-top: 15px;
+  padding-bottom: 5px; 
+
+}
+textarea {
+  margin-top: 15px; 
+  margin-bottom: 15px;   
+  height: 55px; 
+}
+#submit {
+  background: lightgreen; 
+  cursor: pointer;
+  padding: 5px; 
+  margin-top: 5px; 
+  margin-bottom: 5px; 
+
+}
