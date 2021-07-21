@@ -5,7 +5,6 @@
 }  
 body {
   background: linear-gradient(to bottom, aqua, blue);  
-  /* background-repeat: no-repeat;  */
   min-height: 100vh;
   margin-bottom: 25%;
 }
@@ -77,4 +76,13 @@ textarea {
   margin-top: 5px; 
   margin-bottom: 5px; 
 
+}
+@media only screen and (min-width: 1024px) {
+  .survey-form {
+    width: 17vw;
+  }
+  #number {
+    min-width: 5px;
+    /* border: solid 5px blue; */
+  }
 }
