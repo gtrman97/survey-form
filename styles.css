@@ -33,6 +33,9 @@ body {
   box-shadow: 2px 5px 18px 20px orange; 
   padding: 15px;  
 }
+label {
+  display: block;
+}
 #name {
   margin: 10px; 
 }
