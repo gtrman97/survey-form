@@ -19,7 +19,7 @@ body {
   margin: auto;
   width: 75vw; 
   padding-top: 10px; 
-  padding-bottom: 20px; 
+  padding-bottom: 30px; 
   text-align: center;
   
 }
@@ -82,7 +82,6 @@ textarea {
     width: 17vw;
   }
   #number {
-    min-width: 5px;
-    /* border: solid 5px blue; */
+    min-width: 50px;
   }
 }
