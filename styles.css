@@ -6,7 +6,7 @@
 body {
   background: linear-gradient(to bottom, aqua, blue);  
   background-repeat: no-repeat; 
-  height: 100vh;
+  min-height: 100vh;
 }
 .title {
   text-align:center;
@@ -16,19 +16,18 @@ body {
   content: '*'; 
 }
 .description{
-  margin: 5%;
-  width: 25em; 
+  margin: auto;
+  width: 75vw; 
   padding-top: 10px; 
   padding-bottom: 20px; 
   text-align: center;
-  border: solid 2px red;
   
 }
-#survey-form {
+.survey-form {
   background-color: skyblue;    
   text-align: center; 
   margin: auto; 
-  width: 17vw;  
+  width: 65vw;  
   border: 5px solid red; 
   box-shadow: 2px 5px 18px 20px orange; 
   padding: 15px;  
