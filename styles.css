@@ -43,7 +43,8 @@ label {
   margin: 10px; 
 }
 #number {
-  margin: 10px;  
+  margin: 10px; 
+  min-width: 25vw; 
 }
 #dropdown {
   margin: 10px; 
